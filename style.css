@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+header{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.titulo{
+    width: 50%;
+    padding: 10px;
+    float: left;
+    box-sizing:border-box;
+}
+.titulo h1{
+    font-size: 30px;
+}
+.texto{
+    width: 50%;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;   
+}
+.texto h2{
+    font-size: 20px;
+    padding: 10px;
+}
+.texto p{
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 1.5px;
+    line-height: 20px;   
+}
+main{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.primeraLinea-cprimera{
+    width: 20%;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+.primeraLinea-cprimera #foto-primera{
+    width: 100%;
+    height: auto;
+}
+.primeraLinea-csegunda{
+    width: 20%;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+.primeraLinea-csegunda #foto-segunda{
+    width: 100%;
+    height: auto;
+}
+.primeraLinea-ctercera{
+    width: 20%;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+.primeraLinea-ctercera #foto-tercero{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .titulo{
+        width: 100%;
+    }
+    .texto{
+        width: 100%;
+    }
+    .primeraLinea-cprimera{
+        width: 40%;
+    }
+    .primeraLinea-csegunda{
+        width: 40%;
+    }
+    .primeraLinea-ctercera{
+        width: 40%;
+    }
+}
